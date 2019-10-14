@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-XXHNetWork/Pods-XXHNetWork-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework
+${BUILT_PRODUCTS_DIR}/SQLCipher/SQLCipher.framework
+${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework
