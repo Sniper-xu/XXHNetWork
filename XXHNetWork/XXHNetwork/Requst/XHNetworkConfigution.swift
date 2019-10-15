@@ -19,7 +19,7 @@ class XHNetworkConfigution: NSObject {
     
     var baseURLString :String {
         get {
-//            return "http://116.62.65.65:38070/coachParentApp/"
+            //基本地址
             return "https://news-at.zhihu.com/api/4/news/9710114"
         }
     }
@@ -29,19 +29,13 @@ class XHNetworkConfigution: NSObject {
     // Network timeout
     var timeoutInterval:Int = 20
     //Cache version
-    var memoryCacheVersion: String?
+    var memoryCacheVersion: String = "1.0"
     // Cache expiration time
     var cacheTimeInSeconds: TimeInterval = 300
     // Request header
     var mutableHTTPRequestHeaders : [String : String]?
     //Whether log printing is enabled
     var dubugLogeEnable:Bool = true
-    //Whether SQLLog is enabled
-    var SQLLogEnable:Bool = false
-    // log password
-    var ne_sqlitePassword:String?
-    // Set the maximum cache limit
-    var ne_saveRequestMaxCount:Int?
     
     var isReachable:Bool {
         get { if  AFNetworkReachabilityManager.shared().networkReachabilityStatus == .notReachable {
