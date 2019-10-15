@@ -9,9 +9,7 @@
 import UIKit
 
 class XHNetworkTestManager: XHNetworkDelegateManager,XHAPIManager,XHAPIManagerValidator {
-//    func reformParams(Params params: [String : Any]) -> [String : Any] {
-//        
-//    }
+
     override init() {
         super.init()
         self.validatorDelegate = self
